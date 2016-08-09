@@ -1,0 +1,17 @@
+{
+  "name": "dev_lab",
+  "description": "front-end libraries i would like to try",
+  "main": "index.js",
+  "authors": [
+    "Dean.Sung"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
