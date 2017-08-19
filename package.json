@@ -4,7 +4,9 @@
   "description": "trying to establish an environment to help me learn JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/scavenger2/dev_lab/issues"
   },
-  "homepage": "https://github.com/scavenger2/dev_lab"
+  "homepage": "https://github.com/scavenger2/dev_lab",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-loader": "^7.0.0",
+    "gulp-util": "^3.0.8",
+    "jasmine": "^2.7.0",
+    "react": "^15.5.4",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.7.1"
+  }
 }
